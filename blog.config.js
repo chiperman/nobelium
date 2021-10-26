@@ -1,23 +1,22 @@
 const BLOG = {
-  title: 'CRAIGARY',
-  author: 'Craig Hart',
-  email: 'i@craigary.net',
-  link: 'https://nobelium.vercel.app',
-  description: 'This gonna be an awesome website.',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  title: 'CHIPERMAN',
+  author: 'chiperman ju',
+  email: 'chipermanju@gmail.com',
+  link: 'https://chiperman.github.io/',
+  description: 'The Review and Reflection in my work.',
+  lang: 'en-US',
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
-  darkBackground: '#18181B', // use hex value, don't forget '#'
+  darkBackground: '#111827', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
-  since: 2021, // If leave this empty, current year will be used.
+  since: 2021, // if leave this empty, current year will be used.
   postsPerPage: 7,
   sortByDate: false,
-  showAbout: true,
-  showArchive: true,
-  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/craigaryhart',
+  showAbout: true, // WIP
+  showArchive: true, // WIP
+  autoCollapsedNavBar: false, // the automatically collapsed navigation bar
+  socialLink: 'https://chiperman.github.io/me',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
